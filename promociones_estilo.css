@@ -1,0 +1,201 @@
+*{
+padding: 0px;
+margin: 0px;
+box-sizing: border-box;
+font-family:cursive;
+}
+
+body{
+background-color: darkorange;
+background-size: cover;
+}
+.nomb_rest{
+		max-width: 100%;
+		text-align: center;
+		margin-top: 45px;
+		font-size: 50px;
+		color: white;
+		font-family: cursive;
+
+	}
+
+/*Menu de atajos*/
+nav{
+	max-width: 100%;
+	margin: auto;
+	background-color: #333; /*Cambia el color del menú de atajos*/
+	font-size:20px; /*Ajusta el tamaño de las letras del menú de atajos*/
+	margin-top: 20px; /*Ajusta a que que tan abajo esta el menú de atajos*/
+
+}
+
+.menu-horizontal{
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+}
+
+.menu-horizontal > li > a{
+	display: block;
+	padding: 15px 20px;
+	color: white;
+	text-decoration: none;
+}
+
+.menu-horizontal >li:hover{
+	background-color: orangered;
+}
+
+.menu-vertical{
+	position: absolute;
+	display: none;
+	list-style: none;
+	width: 188px;
+	background-color: rgba(0, 0, 0, .5);
+}
+
+.menu-horizontal li:hover .menu-vertical{
+	display: block;
+}
+
+.menu-vertical li:hover{
+	background-color: orangered; /*Cambia el color del fondo de los menus verticales cuando el cursor esta sobre la opcion*/
+}
+
+.menu-vertical li a{
+	display: block;
+	color: white; /*Cambia el color de los menus verticales*/
+	padding: 15px 15px 15px 15px; /*Ajusta la cantidad de espacios que tendrán los menús en vertical*/
+	text-decoration: none; /*Quita las decoraciones de los menus verticales*/
+}
+
+/*Decoracion*/
+.fondo_p{
+	width: 100%;
+	height: 100vh;
+	background: url(img/orden11.jpg);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.fondo_p h1{
+	font-size: 60px;
+	color:white;
+	font-style: oblique
+}
+
+.seccion_f{
+	max-width: 1100px;
+	width: 90%;
+	overflow: hidden;
+	margin: auto;
+	color: white;
+	padding: 20px 0px;
+
+}
+
+.seccion{
+	background: url(img/orden10.jpg);
+	width: 100%;
+	height: 110vh;
+	background-position: center;
+	position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	justify-content: center;
+	align-items: center; 
+}
+
+.seccion h2, .seccion_2 h2, .seccion_3 h2, .seccion_4 h2, .seccion_5 h2{
+	font-size: 60px;
+	text-align: center;
+	padding: 350px 0px;
+	color: black;
+	font-style: oblique
+	text-shadow: -1px 0 black 0 1px black 1px 0 black, 0 -1px black;
+}
+
+.titulos{
+	font-size: 45px;
+	text-align: center;
+	padding: 60px 0px;
+	font-style: oblique
+}
+
+.parrafos{
+	font-size: 35px;
+	padding: 20px;
+	text-align: justify;
+}
+
+.parrafo1{
+color: white;
+}
+
+/*Replicas*/
+
+.seccion_2{
+	background: url(img/orden15.jpg);
+	width: 100%;
+	height: 110vh;
+	background-position: center;
+	position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	justify-content: center;
+	align-items: center; 
+}
+
+.seccion_3{
+	background: url(img/orden3.jpg);
+	width: 100%;
+	height: 110vh;
+	background-position: center;
+	position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	justify-content: center;
+	align-items: center; 
+}
+
+.seccion_4{
+	background: url(img/orden17.png);
+	width: 100%;
+	height: 110vh;
+	background-position: center;
+	position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	justify-content: center;
+	align-items: center; 
+}
+
+.seccion_5{
+	background: url(img/orden13.jpg);
+	width: 100%;
+	height: 110vh;
+	background-position: center;
+	position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	justify-content: center;
+	align-items: center; 
+}
+
+.foot{
+	background-color: rgb(4,0,0,0.6);
+	margin-top: 41%;
+	width: 100%;
+	padding: 20px 0px;
+	position: relative;
+	top: 100px;
+}
+
+.foot_p{
+color: white;
+text-align: center;
+}

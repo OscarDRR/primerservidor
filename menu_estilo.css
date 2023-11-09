@@ -1,0 +1,129 @@
+*{
+padding: 0px;
+margin: 0px;
+box-sizing: border-box;
+font-family:cursive;
+}
+
+body{
+background-image: url(img/fondo.jpg);
+background-size: cover;
+}
+.nomb_rest{
+		max-width: 100%;
+		text-align: center;
+		margin-top: 45px;
+		font-size: 50px;
+		color: white;
+		font-family: cursive;
+
+	}
+
+/*Menu de atajos*/
+nav{
+	max-width: 100%;
+	margin: auto;
+	background-color: #333; /*Cambia el color del menú de atajos*/
+	font-size:20px; /*Ajusta el tamaño de las letras del menú de atajos*/
+	margin-top: 20px; /*Ajusta a que que tan abajo esta el menú de atajos*/
+
+}
+
+.menu-horizontal{
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+}
+
+.menu-horizontal > li > a{
+	display: block;
+	padding: 15px 20px;
+	color: white;
+	text-decoration: none;
+}
+
+.menu-horizontal >li:hover{
+	background-color: orangered;
+}
+
+.menu-vertical{
+	position: absolute;
+	display: none;
+	list-style: none;
+	width: 188px;
+	background-color: rgba(0, 0, 0, .5);
+}
+
+.menu-horizontal li:hover .menu-vertical{
+	display: block;
+}
+
+.menu-vertical li:hover{
+	background-color: orangered; /*Cambia el color del fondo de los menus verticales cuando el cursor esta sobre la opcion*/
+}
+
+.menu-vertical li a{
+	display: block;
+	color: white; /*Cambia el color de los menus verticales*/
+	padding: 15px 15px 15px 15px; /*Ajusta la cantidad de espacios que tendrán los menús en vertical*/
+	text-decoration: none; /*Quita las decoraciones de los menus verticales*/
+}
+
+.platos_p{
+	display: flex;
+	max-width: 100vw;
+	width: 100%;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.bebidas{
+	display: flex;
+	max-width: 100vw;
+	width: 100%;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.postres{
+	display: flex;
+	max-width: 100vw;
+	width: 100%;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.paquetes{
+	display: flex;
+	max-width: 100vw;
+	width: 100%;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.platos_p h2, .bebidas h2, .postres h2, .paquetes h2{
+	padding: 20px;
+	color: white;
+}
+
+.foot{
+	background-color: rgb(4,0,0,0.6);
+	margin-top: 41%;
+	width: 100%;
+	padding: 20px 0px;
+	position: relative;
+	top: 0px;
+}
+
+.foot_p{
+color: white;
+text-align: center;
+}

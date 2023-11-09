@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>FiesTacos</title>
+	<link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+	<h1 class="nomb_rest">FiesTacos</h1>
+	<nav>
+		<ul class="menu-horizontal">
+			<li><a href="index.html">Sobre nosotros</a></li>
+			<li><a href="menu.html">Menú de comida</a>
+             <ul class="menu-vertical">
+             	<li><a href="menu.html">Platos principales</a></li>
+             	<li><a href="menu.html">Bebidas</a></li>
+             	<li><a href="menu.html">Postres</a></li>
+             	<li><a href="menu.html">Paquetes</a></li>
+             </ul>
+			</li>
+			<li><a href="#galeria">Galeria</a></li>
+			<li><a href="promociones.html">Promociones</a><ul class="menu-vertical">
+					<li><a href="promociones.html">Lunes & Martes</a></li>
+					<li><a href="promociones.html">Miercoles & Jueves</a></li>
+					<li><a href="promociones.html">Viernes</a></li>
+					<li><a href="promociones.html">Sabado</a></li>
+					<li><a href="promociones.html">Domingo</a></li>
+				</ul></li>
+		</ul>
+	</nav>
+	
+	<div class="contenedor1">
+	<h3 class="titulo_cont">Sobre nosotros</h3>
+	<p><span class="parrafo_cont">Somos un restaurante que quiso combinar la comida más mexicana y noble que puede existir: El Taco. Por lo que a través de recetas familiares transmitidas de generación en generación decidimos compartir con todo México y el mundo lo que es probar un taco hecho con la mayor y mejor calidad, con los productos más frescos y sobre todo con todo el cariño que un mexicano le puede poner a la comida</span></p>
+
+	<div class="container1">
+		<img class="foto" src="img/orden12.jpg" alt="" >
+		<img class="foto" src="img/taquero.jpg" alt="" >
+	</div>
+
+</div>
+
+<div class="contenedor2" id="galeria">
+	<h3 class="titulo_cont2">Galeria</h3>
+	<p><span class="parrafo_cont2">En FiesTacos nos dedicamos a brindarte siempre el mejor servicio con productos de calidad, donde pasarás una experiencia increíblemente rica y donde te aseguramos que encontraras ese taco especial que se volverá tu favorito sin lugar a dudas, aquí algunas de las fotos de nuestros comensales disfrutando tanto de la comida como del ambiente del restaurante.</span></p>
+	
+	<div class="container">
+			<video src="img/amigos.mp4" autoplay loop muted class="video"></video>
+			<video src="img/tacote.mp4" autoplay loop muted class="video"></video>
+			<img class="foto" src="img/orden.jpg" alt="" >
+			<img class="foto" src="img/taquero1.jpg" alt="">
+			<img class="foto" src="img/orden3.jpg" alt="" >
+			<img class="foto" src="img/restaurante.jpg" alt="">
+			<img class="foto" src="img/orden6.jpg" alt="">
+			<img class="foto" src="img/orden7.jpg" alt="">
+			<img class="foto" src="img/restaurante1.jpg">
+			<img class="foto" src="img/orden9.jpg" alt="">
+	</div>
+
+</div>
+
+<footer class="foot">
+	<p class="foot_p">Telefono de contacto: 5545137840</p>
+	<p class="foot_p">Dirección: Calle Cerro de la Silla, Mz 3, Lt72. Colonia Rancho del Taco</p>
+	<p class="foot_p">Contacto: Oscar De La Rosa</p>
+	<p class="foot_p">FiesTacos&copy</p>
+</footer>
+
+</body>
+</html>
