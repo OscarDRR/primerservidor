@@ -1,0 +1,47 @@
+div{
+	margin: 25px 0px 0px 50px;
+	position: static;
+
+}
+/*Con este comando personalice el tamaño de mi letra
+su pocision y estilo */
+.Tletra{
+	position: static;
+	width: : 400px;
+	font-size: 16px;
+	font-family: "Arial";
+	margin: 20px 600px 0px 205px;
+
+
+}
+/*Con este comando cambie el como se veria la posicion de mis tablas
+en la parte de paquetes */
+.Posi{
+	position: static;
+	width: : 400px;
+	font-size: 16px;
+	font-family: "Arial";
+	margin: 20px 400px 0px 205px;
+
+}
+/*Con este comando personalice la parte de la galeria
+mas que nada para que no se desperdiciara espacio y cupieran
+mas imaguenes en un renglon */
+.Galeria{
+	position: static;
+	width: : 400px;
+	font-size: 16px;
+	font-family: "Arial";
+	margin: 50px 200px 0px 205px;
+
+}
+/*Con este comando personalice el pie de paguina */
+footer {
+    background-color: black;
+    position: static;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    color: white;
+  }
+
